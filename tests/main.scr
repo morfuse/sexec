@@ -1,0 +1,7 @@
+main:
+setthread "test"
+println "hello, world"
+println "testing with other:"
+exec other.scr
+thread newfolder/newscript.scr::main
+end

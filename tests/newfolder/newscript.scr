@@ -1,0 +1,7 @@
+main:
+println "Inside newfolder/newscript.scr"
+
+while(1) {
+}
+
+end

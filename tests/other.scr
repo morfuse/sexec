@@ -1,0 +1,3 @@
+main:
+println "Inside other.scr"
+end
