@@ -1,6 +1,7 @@
 main:
-local.p = spawn Player
-local.p iprint "test"
+for(local.i = 0; local.i <= 20; local.i++) {
+  local.p = spawn Player
+}
 $player iprint "test"
 setthread "test"
 println "hello, world"
