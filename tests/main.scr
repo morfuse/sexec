@@ -1,4 +1,6 @@
 main:
+local.p = spawn Player
+local.p iprint "test"
 setthread "test"
 println "hello, world"
 println "testing with other:"
