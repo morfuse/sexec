@@ -17,6 +17,8 @@ uint32_t Player::playerCount = 0;
 Player::Player()
 {
 	this->playerId = playerCount++;
+	// set the player's targetname
+	this->GetTargetComponent().SetTargetName("player");
 }
 
 Player::~Player()
