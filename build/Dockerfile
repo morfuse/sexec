@@ -1,11 +1,7 @@
 FROM morfuse/lib
 
-FROM ubuntu:latest
-
-# install dev tools
-RUN apt update && apt install -y ninja-build cmake make clang-12 lld-12
-
-COPY --from=0 "/usr/local/morfuse" "/usr/local/morfuse"
+# The base image already has these tools installed
+#RUN apt update && apt install -y ninja-build cmake make clang-12 lld-12
 
 WORKDIR /usr/src/mfuse/sexec
 
